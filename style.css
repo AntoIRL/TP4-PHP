@@ -1,0 +1,65 @@
+/*GENERALE*/
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'VT323', monospace;
+    color: #FF0505;
+}
+.btn
+{
+    background-color: #FF0505;
+    color: white;
+    width: 150px;
+    height: 50px ;
+    border-radius: 5px;
+    float: left;
+    margin: 10px;
+    font-size: large;
+}
+ul {
+    list-style-type: none;
+}
+
+/*EN-TETE*/
+header
+{
+    height: 65px;
+    border-bottom: 2px #8F8F8F solid;
+    box-shadow: 0 1px 5px #8F8F8F;
+}
+header h1
+{
+    text-align: center;
+    padding-top: 10px;
+}
+header #Menu
+{
+    padding: 8px;
+    float: left;
+}
+header #LienOff
+{
+    visibility: hidden;
+}
+header #LienOff ul li
+{
+
+     display: inline-block;
+}
+
+/*COPRS*/
+.Contenue
+{
+    padding: 20px;
+    font-size: x-large;
+}
+#Commentaire
+{
+    height: auto;
+    width: 200px;
+}
+.Choice
+{
+    margin-left:96px;
+}
